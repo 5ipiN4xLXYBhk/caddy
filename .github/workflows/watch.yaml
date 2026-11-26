@@ -1,7 +1,7 @@
 name: watch-caddy
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min
+    - cron: "7,37 * * * *"   # every 30 min
   workflow_dispatch:          # manual run button
 
 permissions:
